@@ -16,7 +16,7 @@ package core
 
 import (
 	"fmt"
-	"github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/messages"
 	"io"
 )
 

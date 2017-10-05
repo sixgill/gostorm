@@ -17,7 +17,7 @@ package json
 import (
 	"bytes"
 	"fmt"
-	"github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/messages"
 	"math/rand"
 	"testing"
 )

@@ -19,9 +19,9 @@ import (
 	"container/list"
 	"encoding/binary"
 	"fmt"
-	proto "github.com/jsgilmore/gostorm/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	"github.com/jsgilmore/gostorm/core"
-	"github.com/jsgilmore/gostorm/messages"
+	proto "github.com/sixgill/gostorm/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"github.com/sixgill/gostorm/core"
+	"github.com/sixgill/gostorm/messages"
 	"io"
 )
 

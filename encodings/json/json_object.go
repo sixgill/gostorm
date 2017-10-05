@@ -15,8 +15,8 @@
 package json
 
 import (
-	"github.com/jsgilmore/gostorm/core"
-	"github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/core"
+	"github.com/sixgill/gostorm/messages"
 	"io"
 )
 

@@ -16,9 +16,9 @@
 package gostorm
 
 import (
-	"github.com/jsgilmore/gostorm/core"
-	_ "github.com/jsgilmore/gostorm/encodings"
-	stormmsg "github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/core"
+	_ "github.com/sixgill/gostorm/encodings"
+	stormmsg "github.com/sixgill/gostorm/messages"
 	"os"
 )
 

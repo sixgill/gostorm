@@ -16,9 +16,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/jsgilmore/gostorm/core"
-	jsonencoding "github.com/jsgilmore/gostorm/encodings/json"
-	"github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/core"
+	jsonencoding "github.com/sixgill/gostorm/encodings/json"
+	"github.com/sixgill/gostorm/messages"
 	"log"
 	"os"
 	"os/signal"

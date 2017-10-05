@@ -16,7 +16,7 @@ package gostorm
 
 import (
 	"fmt"
-	"github.com/jsgilmore/gostorm/core"
+	"github.com/sixgill/gostorm/core"
 	"io"
 	"sync"
 )

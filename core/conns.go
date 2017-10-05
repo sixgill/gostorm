@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm/messages"
 )
 
 // BoltConn is the interface that implements the possible bolt actions

@@ -1,8 +1,8 @@
 # gostorm
 
-[![Build Status](https://drone.io/github.com/jsgilmore/gostorm/status.png)](https://drone.io/github.com/jsgilmore/gostorm/latest)
+[![Build Status](https://drone.io/github.com/sixgill/gostorm/status.png)](https://drone.io/github.com/sixgill/gostorm/latest)
 
-[godocs](https://godoc.org/github.com/jsgilmore/gostorm)
+[godocs](https://godoc.org/github.com/sixgill/gostorm)
 
 GoStorm is a Go library that implements the communications protocol required for non-Java languages to communicate as part of a storm topology. In other words, gostorm lets you write Storm spouts and bolts in Go.
 
@@ -12,7 +12,7 @@ Currently, the main purpose of GoStorm is to act as a library for Go spouts and 
 
 For testing and evaluation purposes, the GoStorm release also contains its own splitsentence.go implementation that replaces the python splitsentence.py implementation in the [storm-starter](https://github.com/nathanmarz/storm-starter) WordCountTopology. GoStorm also contains mock output collector implementations that allows a developer to test her code code, before having to submit it as part of a Storm cluster.
 
-GoStorm implements (and enforces) the Storm [multilang protocol](https://github.com/nathanmarz/storm/wiki/Multilang-protocol). Apart from implementing the multilang JSON protocol that is used by Storm shell components, GoStorm also implements a protocol buffer binary encoding scheme for improved performance. The protocol buffer encoding requires the Storm [protoshell](https://github.com/jsgilmore/protoshell) multilang serialiser and Storm 0.9.2 or later.
+GoStorm implements (and enforces) the Storm [multilang protocol](https://github.com/nathanmarz/storm/wiki/Multilang-protocol). Apart from implementing the multilang JSON protocol that is used by Storm shell components, GoStorm also implements a protocol buffer binary encoding scheme for improved performance. The protocol buffer encoding requires the Storm [protoshell](https://github.com/sixgill/protoshell) multilang serialiser and Storm 0.9.2 or later.
 
 GoStorm itself requires Storm 0.10.0 or later.
 
@@ -66,8 +66,8 @@ The fields factory declares the message types that the bolt expects to receive. 
 To write a bolt, import the following:
 ```go
 import (
-    "github.com/jsgilmore/gostorm"
-    stormmsg "github.com/jsgilmore/gostorm/messages"
+    "github.com/sixgill/gostorm"
+    stormmsg "github.com/sixgill/gostorm/messages"
 )
 ```
 
@@ -80,8 +80,8 @@ All that remains is for you to write a main method for your bolt. The main metho
 package main
 
 import (
-    "github.com/jsgilmore/gostorm"
-    _ "github.com/jsgilmore/gostorm/encodings"
+    "github.com/sixgill/gostorm"
+    _ "github.com/sixgill/gostorm/encodings"
 )
 
 func main() {
@@ -161,8 +161,8 @@ Very similarly to running bolts, a main method has to be created to run the spou
 package main
 
 import (
-    "github.com/jsgilmore/gostorm"
-    _ "github.com/jsgilmore/gostorm/encodings"
+    "github.com/sixgill/gostorm"
+    _ "github.com/sixgill/gostorm/encodings"
 )
 
 func main() {

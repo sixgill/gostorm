@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	stormcore "github.com/jsgilmore/gostorm/core"
+	stormcore "github.com/sixgill/gostorm/core"
 	"math/rand"
 	"testing"
 )

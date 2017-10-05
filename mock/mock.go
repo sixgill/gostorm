@@ -16,8 +16,8 @@ package gostorm
 
 import (
 	"fmt"
-	"github.com/jsgilmore/gostorm"
-	stormmsg "github.com/jsgilmore/gostorm/messages"
+	"github.com/sixgill/gostorm"
+	stormmsg "github.com/sixgill/gostorm/messages"
 )
 
 func NewPrinter() gostorm.Bolt {
